@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 5px;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  color: #393D24;
+}
+
+h2, h3 {
+  color: #172238;
+  font-family: 'Sail', cursive;
+}
+
+h2 {
+  padding: 10px;
+}
+
+h3 {
+  padding: 7px;
+}
+
+body {
+  background: #5D2D07 url('background2.png');
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.2em;
+}
+
+header {
+  background: #5D2D07 url('background2.png');
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+nav, article, footer {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+nav {
+  background-color: #172238;
+  text-align: center;
+  box-shadow: 0 0 7px 7px #172238;
+  padding-bottom: 10px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 7px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #898D74;
+  font-size: 1em;
+  font-family: 'Ultra', serif;
+}
+
+nav a:visited {
+  color: #BB9A64;
+}
+
+nav a:hover {
+  background-color: #898D74;
+  color: #172238;
+}
+
+#death_star_img {
+  float: left;
+  width: 500px;
+  height: 581px;
+  -webkit-shape-outside: polygon(0px 0px, 84px 80px, 174px 106px, 242px 88px, 349px 115px, 426px 172px, 486px 264px, 494px 375px, 445px 460px, 373px 542px, 318px 570px, 0px 581px);
+  shape-outside: polygon(0px 0px, 84px 80px, 174px 106px, 242px 88px, 349px 115px, 426px 172px, 486px 264px, 494px 375px, 445px 460px, 373px 542px, 318px 570px, 0px 581px);
+  -webkit-shape-margin: 1em;
+  shape-margin: 1.2em;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+#death_star_div {
+  padding-top: 120px;
+}
+
+#death_star_header {
+  text-align: left;
+}
+
+#death_star_container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+article {
+  background: #8C7166 url('background.png');
+  box-shadow: 0 0 7px 7px #8C7166;
+  padding-bottom: 10px;
+}
+
+article a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4D0916;
+}
+
+article a:hover {
+  color: #8C7166;
+  background-color: #4D0916;
+}
+
+article ul, article ol {
+  padding-left: 25px;
+}
+
+article ul {
+  list-style-image: url('bullet1c.png');
+}
+
+article ul ul, article ol ul, article ol ol {
+  padding-left: 20px;
+}
+
+article ul ul, article ol ul {
+  list-style-image: url('bullet2c.png');
+}
+
+article ol ol, article ul ol {
+  list-style-type: upper-alpha;
+}
+
+article > ol > li {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 45px;
+}
+
+article > ol > li:first-child {
+  margin-top: 0;
+}
+
+article > ol > li > ul, article > ol > li > ol {
+  font-weight: normal;
+  font-size: .8em;
+  margin-top: 0;
+}
+
+article p {
+  padding: 10px 5px 7px 5px;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+article hr {
+  border: 0;
+  height: 1px;
+  background-color: #4D0916;
+  background-image: linear-gradient(to right, #6C5146, #4D0916, #6C5146);
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+footer {
+  background-color: #4D0916;
+  box-shadow: 0 0 7px 7px #4D0916;
+  color: #8C7166;
+}
+
+footer p {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.clear_right {
+  clear: right;
+}
+
+.clear_left {
+  clear: left;
+}
+
+table.listing th {
+  padding: 0 5px 0 5px;
+  border-bottom: 1px solid #232323;
+}
+
+table.listing td {
+  padding: 0 5px 0 5px;
+  border-bottom-style: none;
+}
+
+table.listing tr:nth-child(odd) td {
+  background-color: #BB9A64;
+}
+
+table.listing td + td {
+  border-left: 1px solid #232323;
+}
+
+table.listing th + th {
+  border-left: 1px solid #232323;
+}
+
+table.listing {
+  margin: 20px;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #898D74;
+  color: #4D0916;
+}
+
+table.listing caption {
+  font-weight: bold;
+  font-size: 1.2em;
+}
